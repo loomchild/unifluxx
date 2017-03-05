@@ -32,4 +32,3 @@ This app makes requests to [NBS BIM toolkit api](https://toolkit.thenbs.com/arti
 
 https://github.com/ArcDoxDev/Unifluxx
 
-
