@@ -1,0 +1,23 @@
+version: '2'
+services:
+  main:
+    build: .
+    image: jenca/unifluxx
+    ports:
+      - 3000
+    environment:
+      - VIRTUAL_PORT=3000
+      - VIRTUAL_HOST
+
+    networks:
+      - front
+      - back
+      - default
+
+networks:
+    front:
+        external:
+            name: "puffin_front"
+    back:
+        external:
+            name: "puffin_back"
