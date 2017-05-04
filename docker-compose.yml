@@ -1,7 +1,7 @@
 version: '2'
 services:
   main:
-    build: .
+    # build: .
     image: jenca/unifluxx
     ports:
       - 3000
