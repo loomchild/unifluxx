@@ -12,6 +12,5 @@ config.prod.js
 *.hgt
 ssl
 TODO
-config.js
 secrets.yaml
 *.DS_Store
