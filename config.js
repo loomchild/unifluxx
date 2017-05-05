@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://flux.io',
     id: 'dcee8345-9fe3-407e-82fb-18017e743743',
     secret: 'ebe18fa0-9da2-4de2-b951-c4210364260a',
-  }
+  },
   session: {
     secret: 'topSecret'
   },
