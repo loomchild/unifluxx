@@ -4,12 +4,12 @@ module.exports = {
   port: 3000,
   flux: {
     url: 'https://flux.io',
-    id: process.env.FLUX_ID || "", //enter flux.id here
-    secret: process.env.FLUX_SECRET || "", //enter flux.secret here
-  },
+    id: 'dcee8345-9fe3-407e-82fb-18017e743743',
+    secret: 'ebe18fa0-9da2-4de2-b951-c4210364260a',
+  }
   session: {
     secret: 'topSecret'
   },
-  NBS_clientId: process.env.NBS_ID || "", //enter client.id from NBS here
-  NBS_clientSecret: process.env.NBS_SECRET || "" //enter client.secret from NBS here
+  NBS_clientId: "c7c6dbf5-4df9-4a13-ab89-3b1970af7a2c",
+  NBS_clientSecret: "e54ed1d1-fdbe-488a-9ae5-fc95a2027a68"
 }
